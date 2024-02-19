@@ -30,4 +30,6 @@ for raum in raeume:
     gesamtflaeche += raum['Fläche']  # Addiere die Fläche des Raums zur Gesamtfläche.
 
 # Gib die Gesamtfläche aller Räume aus.
-print(f"\nGesamtfläche aller Räume: {gesamtflaeche} m²")
+print(f"\nGesamtfläche aller Räume: {gesamtflaeche} m²")   
+
+#Teständerung für GIT
