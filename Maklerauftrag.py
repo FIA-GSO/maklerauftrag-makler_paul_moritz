@@ -5,7 +5,7 @@ def berechne_raumflaeche(laenge, breite):
 # Definiere eine leere Liste, um die Informationen der Räume zu speichern.
 raeume = []
 
-# Eine Schleife, die so lange läuft, bis der Benutzer entscheidet, sie zu beenden.
+# Schleife die läuft, bis zur Eingabe vom Wort 'ende'
 while True:
     # Eingabe der Raumbezeichnung
     bezeichnung = input("Bitte geben Sie die Raumbezeichnung ein (oder 'ende' zum Beenden): ")
@@ -31,5 +31,3 @@ for raum in raeume:
 
 # Gib die Gesamtfläche aller Räume aus.
 print(f"\nGesamtfläche aller Räume: {gesamtflaeche} m²")   
-
-#Teständerung für GIT
